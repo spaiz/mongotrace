@@ -1,0 +1,16 @@
+{
+  "hosts": [
+    {
+      "connectionString": "mongodb://username:password@001.mongodb.net:27017/mydb?ssl=true&connect=direct&authSource=admin",
+      "dbName": "mydb"
+    },
+    {
+      "connectionString": "mongodb://username:password@002.mongodb.net:27017/mydb?ssl=true&connect=direct&authSource=admin",
+      "dbName": "mydb"
+    },
+    {
+      "connectionString": "mongodb://username:password@003.mongodb.net:27017/mydb?ssl=true&connect=direct&authSource=admin",
+      "dbName": "mydb"
+    }
+  ]
+}
