@@ -78,6 +78,10 @@ func (receiver *OplogFormatter) Format(logResults *LogResult) (string, error) {
 		return formatted, nil
 	}
 
+	if formatter == nil {
+		return formatted, nil
+	}
+
 	str, err := formatter(cmd, collection)
 	if err != nil {
 		return "", nil
