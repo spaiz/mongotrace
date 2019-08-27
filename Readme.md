@@ -1,6 +1,12 @@
 # Mongotrace
+Tool for printing information about the current operations executing on the MongoDB.
 
-Tool written in GO for printing currently executing MongoDb queries from multiple servers.
+# Main features
+
+- Enable/disable logging on MongoDb instances
+- MongoDb clusters support
+- Confugurable
+- Formatt MongoDb queries
 
 Tested on: mongodb v4.0.11
 
