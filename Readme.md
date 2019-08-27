@@ -4,6 +4,12 @@ Tool written in GO for printing currently executing MongoDb queries from multipl
 
 Tested on: mongodb v4.0.11
 
+# How it looks
+
+![Output of raw and formatted query log](docs/images/example1.png)
+
+![Output of raw and formatted query log](docs/images/example2.png)
+
 # Build
 
 ```shell
